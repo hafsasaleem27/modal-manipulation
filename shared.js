@@ -12,6 +12,11 @@ for (const ele of selectPlanButtons) {
     });
 }
 
+backdrop.addEventListener('click', function() {
+    backdrop.style.display = 'none';
+    modal.style.display = 'none';
+});
+
 noBtn.addEventListener('click', function() {
     backdrop.style.display = 'none';
     modal.style.display = 'none';
